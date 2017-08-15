@@ -223,6 +223,7 @@ function string:isblank()
   self = self:trim()
   return self:isempty()
 end
+sudo_users = {andayeshgar},--Sudo users  
 
 -- DEPRECATED!!!!!
 function string.starts(String, Start)
